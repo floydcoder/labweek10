@@ -4,11 +4,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import RegistrationClassComp from './RegistrationClassComp/RegistrationClassComp';
+import RegistrationFunctComponent from './RegistrationFunctComponent/RegistrationFunctComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <RegistrationClassComp />
+    {/* <RegistrationFunctComponent /> */}
   </React.StrictMode>
 );
 
