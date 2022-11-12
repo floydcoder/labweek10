@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import RegistrationClassComp from './RegistrationClassComp/RegistrationClassComp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RegistrationClassComp></RegistrationClassComp>
+    <RegistrationClassComp />
   </React.StrictMode>
 );
 
